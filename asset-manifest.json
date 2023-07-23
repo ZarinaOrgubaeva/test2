@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test2/static/css/main.e0e686ad.css",
+    "main.js": "/test2/static/js/main.12d7e86b.js",
+    "static/media/part2.svg": "/test2/static/media/part2.eaad484919a7c031b162da9afc668c41.svg",
+    "static/media/whatsapp.svg": "/test2/static/media/whatsapp.b68965d8875719d7ac56dd2784aae9ee.svg",
+    "static/media/viber.svg": "/test2/static/media/viber.af065114865219181864377f8623c26f.svg",
+    "static/media/ball.svg": "/test2/static/media/ball.e0cfd585b5aa004e7899e00ff8c97cf4.svg",
+    "static/media/purpleball.svg": "/test2/static/media/purpleball.5183c75bdfdc477e9148312d22bdcf94.svg",
+    "static/media/redball.svg": "/test2/static/media/redball.d0944b6e50e80d4994d492177a6b660c.svg",
+    "static/media/part1.svg": "/test2/static/media/part1.b94846200d03ec0b38cd0700858aebe5.svg",
+    "index.html": "/test2/index.html",
+    "static/media/telegram.svg": "/test2/static/media/telegram.78c28275dc768bcd5ed458a93c3c7b7b.svg",
+    "main.e0e686ad.css.map": "/test2/static/css/main.e0e686ad.css.map",
+    "main.12d7e86b.js.map": "/test2/static/js/main.12d7e86b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0e686ad.css",
+    "static/js/main.12d7e86b.js"
+  ]
+}
