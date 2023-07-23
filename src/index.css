@@ -9,7 +9,12 @@ body {
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background: rgb(144, 50, 12);
+  background: linear-gradient(
+    114deg,
+    rgba(144, 50, 12, 1) 0%,
+    rgba(17, 9, 4, 1) 26%
+  );
 }
 
 code {

@@ -1,37 +1,53 @@
 import styled from "styled-components";
-
+import { ReactComponent as RedBall } from "../assets/logo/redball.svg";
+import { ReactComponent as Redball } from "../assets/logo/ball.svg";
 export const Section = () => {
   return (
-    <Main>
-      <Container>
-        <h1>Зарабатывайте больше</h1>
-        <h2>с WELBEX</h2>
-        <p>Развиваем и контролируем продажи за вас</p>
-      </Container>
-      <Content>
-        <p>
-          Вместе c <span>БЕСПЛАТНОЙ </span> <span> КОНСУЛЬТАЦИЕЙ</span> мы
-          дарим:
-        </p>
-        <Prize>
-          <Prize1>
-            <h4>ВИДЖЕТЫ</h4>
-            <h6>30 готовых решений</h6>
-            <h4>SKYPE АУДИТ</h4>
-            <h6>отдела продаж и CRM системы</h6>
-          </Prize1>
-          <Prize2>
-            <h4>DASHBOARD</h4>
-            <h6>с показателями вашего бизнеса</h6>
-            <h4> 35 ДНЕЙ </h4>
-            <h6>использования CRM</h6>
-          </Prize2>
-        </Prize>
-        <Btn>
-          <button>Получить консультацию</button>
-        </Btn>
-      </Content>
-    </Main>
+    <>
+      <div style={{ zIndex: 1, marginLeft: "40%", marginTop: "-4%" }}>
+        <RedBall />
+      </div>
+      <Main>
+        <Container>
+          <h1>Зарабатывайте больше</h1>
+          <h2>с WELBEX</h2>
+          <p>Развиваем и контролируем продажи за вас</p>
+        </Container>
+        <Content>
+          <p>
+            Вместе c <span>БЕСПЛАТНОЙ </span> <span> КОНСУЛЬТАЦИЕЙ</span> мы
+            дарим:
+          </p>
+          <Prize>
+            <Prize1>
+              <h4>ВИДЖЕТЫ</h4>
+              <h6>30 готовых решений</h6>
+              <h4>SKYPE АУДИТ</h4>
+              <h6>отдела продаж и CRM системы</h6>
+            </Prize1>
+            <Prize2>
+              <h4>DASHBOARD</h4>
+              <h6>с показателями вашего бизнеса</h6>
+              <h4> 35 ДНЕЙ </h4>
+              <h6>использования CRM</h6>
+            </Prize2>
+          </Prize>
+          <div
+            style={{
+              position: "absolute",
+              zIndex: 10,
+              top: "95%",
+              left: "60%",
+            }}
+          >
+            <Redball />
+          </div>
+          <Btn>
+            <button>Получить консультацию</button>
+          </Btn>
+        </Content>
+      </Main>
+    </>
   );
 };
 

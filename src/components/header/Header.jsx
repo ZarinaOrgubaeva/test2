@@ -3,39 +3,52 @@ import { ReactComponent as Logo2 } from "../assets/logo/part2.svg";
 import { ReactComponent as Telegram } from "../assets/logo/telegram.svg";
 import { ReactComponent as Viber } from "../assets/logo/viber.svg";
 import { ReactComponent as Whatsapp } from "../assets/logo/whatsapp.svg";
+import { ReactComponent as PurpleBall } from "../assets/logo/purpleball.svg";
 import styled from "styled-components";
 export const Header = () => {
   return (
-    <HeaderStyled>
-      <nav>
-        <div>
-          <Logo1 />
-          <Logo2 />
-          <p>крупный интегратор CRM в Росcии и ещё 8 странах</p>
-        </div>
-        <ul>
-          <li>Услуги</li>
-          <li>Виджеты</li>
-          <li>Интеграции</li>
-          <li>Кейсы</li>
-          <li>Сертификаты</li>
-        </ul>
-        <Container>
-          <h4>+7 555 555-55-55</h4>
-          <span>
-            <Telegram />
-          </span>
-          <span>
-            {" "}
-            <Viber />
-          </span>
-          <span>
-            {" "}
-            <Whatsapp />
-          </span>
-        </Container>
-      </nav>
-    </HeaderStyled>
+    <>
+      <div
+        style={{
+          position: "absolute",
+          zIndex: 10,
+          top: '0%',
+          left: '60%'
+        }}
+      >
+        <PurpleBall />
+      </div>
+      <HeaderStyled>
+        <nav>
+          <div>
+            <Logo1 />
+            <Logo2 />
+            <p>крупный интегратор CRM в Росcии и ещё 8 странах</p>
+          </div>
+          <ul>
+            <li>Услуги</li>
+            <li>Виджеты</li>
+            <li>Интеграции</li>
+            <li>Кейсы</li>
+            <li>Сертификаты</li>
+          </ul>
+          <Container>
+            <h4>+7 555 555-55-55</h4>
+            <span>
+              <Telegram />
+            </span>
+            <span>
+              {" "}
+              <Viber />
+            </span>
+            <span>
+              {" "}
+              <Whatsapp />
+            </span>
+          </Container>
+        </nav>
+      </HeaderStyled>
+    </>
   );
 };
 
